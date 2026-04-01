@@ -1,4 +1,5 @@
 import { MeetingForm } from "@/components/meetings/MeetingForm";
+import { MeetingCalendar } from "@/components/meetings/MeetingCalendar";
 import { MeetingList } from "@/components/meetings/MeetingList";
 
 export default function MeetingsPage() {
@@ -8,6 +9,7 @@ export default function MeetingsPage() {
         <h2 className="text-xl font-semibold">Reunioes</h2>
         <MeetingForm />
       </div>
+      <MeetingCalendar />
       <MeetingList />
     </section>
   );
