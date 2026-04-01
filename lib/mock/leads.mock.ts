@@ -1,0 +1,40 @@
+import type { Lead } from "@/lib/types";
+
+export const mockLeads: Lead[] = [
+  {
+    id: "1",
+    company: "Tech Solutions Ltda",
+    contactName: "Ana Lima",
+    contactEmail: "ana@techsolutions.com",
+    stage: "reuniao_agendada",
+    value: 8500,
+    responsible: "Marcos",
+    nextStep: "Apresentar demo do produto",
+    lastUpdated: "2026-03-28",
+    tags: ["enterprise", "inbound"],
+  },
+  {
+    id: "2",
+    company: "Vitta Saude Integrada",
+    contactName: "Carlos Mendes",
+    contactEmail: "carlos@vitta.com",
+    stage: "negociacao",
+    value: 15000,
+    responsible: "Julia",
+    nextStep: "Ajustar proposta comercial",
+    lastUpdated: "2026-03-26",
+    tags: ["saude", "outbound"],
+  },
+  {
+    id: "3",
+    company: "LojaMix Varejo",
+    contactName: "Renata Alves",
+    contactEmail: "renata@lojamix.com",
+    stage: "primeiro_contato",
+    value: 4200,
+    responsible: "Marcos",
+    nextStep: "Enviar material institucional",
+    lastUpdated: "2026-03-30",
+    tags: ["varejo", "social"],
+  },
+];
